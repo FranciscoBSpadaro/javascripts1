@@ -1,4 +1,4 @@
-const getLastCharacter = (x) => {return x[x.length - 1]}
+const getLastCharacter = (x) => {return x[x.length - 1]}  // se remover o 'x' [x.length - 1] retorna o numero de strings
 
 console.log(getLastCharacter("Francisco"))
 
