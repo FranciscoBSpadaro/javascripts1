@@ -14,8 +14,8 @@ const decimal = parseInt(binary, 2);   // raiz 2
 console.log(`O Valor em Decimal é ${decimal}`); // 100000000 = 256
 
 //decimal para binario
-const dec2bin = (valorDecimal) => {return (valorDecimal >>> 0).toString(2)}  // operador bit a bit de deslocamento à direita não assinado ( >>>) permite exibir numeros negativos corretamente , O (2) é a raiz e pode ser base entre 2 e 36
-
+const dec2bin = (valorDecimal) => {return (valorDecimal >>> 0).toString(2)} //  (2) é a raiz e pode ser base entre 2 e 36
+// operador bit a bit de deslocamento à direita não assinado ( >>>) permite exibir numeros negativos corretamente
 console.log(`O Numero Binario é ${dec2bin(256)}`)  // valorDecimal 256 = 100000000
 
 // node bitwiseXor.js
