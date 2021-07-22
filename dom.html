@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Click the button to create a P element with some text.</p>
+
+    <button onclick="myFunction()">Insira um texto</button>
+
+    <script>
+      function myFunction() {
+        var txt = document.createElement("P");
+        txt.innerText = prompt();
+        document.body.appendChild(txt);
+      }
+    </script>
+  </body>
+</html>
