@@ -40,7 +40,7 @@ console.log(sum)
 
 /** No exemplo seguinte, é usado para transformar uma matriz de strings em um único objeto que mostra quantas vezes cada string aparece na matriz. 
     Observe esta chamada para reduzir passa um objeto vazio como parâmetro. Isso será usado como o valor inicial do acumulador 
-(o primeiro argumento) passado para a função de retorno de chamada.reduce(){}initialValue  */
+(o primeiro argumento) passado para a função de retorno de chamada.reduce(){}initialValue o primeiro parametro é objeto e o segundo é string basta passar o cursor por cima  */
 
 var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
 
