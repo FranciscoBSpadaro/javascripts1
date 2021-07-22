@@ -1,9 +1,4 @@
 
-const animais = (vaiProfogo = ['🍗','🍔']) => {return ['🐓','🐮'].map(vaiProfogo)}
-
-console.log(animais)
-
-
 // multiplicando valores de um array com map
 const numbers = [1, 2, 3, 4];
 const doubled = numbers.map(item => item * 2);
