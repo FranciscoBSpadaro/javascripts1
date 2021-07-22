@@ -31,6 +31,7 @@ const person = {
   console.log(person[id])
   console.log(person.id)
   console.log(`The Person id is ${person[id]} The  Name is ${person.firstName} ${person.lastName} `)
+  console.log(person)
 
 
   // run node symbolType.js
