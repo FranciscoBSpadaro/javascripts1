@@ -43,7 +43,7 @@ console.log(sum)
 (o primeiro argumento) passado para a função de retorno de chamada.reduce(){}initialValue o primeiro parametro é objeto e o segundo é string basta passar o cursor por cima  */
 
 var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
-
+// !"cat" = false porque só tem 1 no index , [x] = 1  atribui valor de 1 para o objeto cat
 const petCounts = pets.reduce(function(objeto, x){
     if (!objeto[x]) {
         objeto[x] = 1
@@ -54,3 +54,14 @@ const petCounts = pets.reduce(function(objeto, x){
 }, {})
 
 console.log(petCounts)
+
+/**
+ * https://developer.mozilla.org/pt-BR/docs/orphaned/Web/JavaScript/Guide/Expressions_and_Operators
+ * negação logica (!) NOT lógico (!) !expr  (Negação lógica) Retorna falso caso o único operando possa ser convertido para verdadeiro; 
+ * senão, retorna verdadeiro.
+ * var n1 = !true
+   console.log(n1) =  false 
+   var n2 = !"cat"
+   console.log(n2) = false */
+
+  
