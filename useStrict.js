@@ -14,5 +14,6 @@ console.log(aluno.nota)
 
 /**
  * https://www.youtube.com/watch?v=-iiSEKTotyg
- *  */ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Strict_mode
+ * https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Strict_mode
+ *  */ 
  
