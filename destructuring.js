@@ -15,7 +15,7 @@ var [, protocol, fullhost, fullpath] = parsedURL;
 
 console.log(protocol); // "https"
 
-
+// ...rest
 var [a, ...b] = ["xa", "v2", "x3", "d4", "a5", "x6"];
 console.log(a); 
 console.log(b); 
