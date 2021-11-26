@@ -16,6 +16,6 @@ class Retangulo {
     }
 }
 
-const quadrado = new Retangulo(10, 10);
+let quadrado = new Retangulo(10, 10);
 
 console.log(quadrado.area);
