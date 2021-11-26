@@ -70,7 +70,20 @@ const petCounts1 = pets1.reduce(function(obj, x){
     }
     return obj
 }, {})  // {} retorno do objeto + reduce
-
+console.log("Contagem  de pets repetidos")
 console.log(petCounts1)
+
+
+console.log("contando caracteres dos indices no array com lenght")
+
+const materials = [
+    'Hydrogen',
+    'Helium',
+    'Lithium',
+    'Beryllium'
+  ];
+  
+  console.log(materials.map(x => x.length),"Caractéres");
+  
 
   
