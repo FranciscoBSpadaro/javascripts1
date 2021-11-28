@@ -7,6 +7,7 @@ const x = (x, y) => { return x ^ y };
 
 console.log(`Resultado em bits ${x (3, 11)}`)
 console.log(`Resultado em bits ${x (6, 22)}`)
+console.log(`Resultado em bits ${x (12, 44)}`)
 
 //binario para decimal
 var binary = "100000000";
