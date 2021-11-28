@@ -3,8 +3,12 @@
 The bitwise XOR operator (^) returns a 1 in each bit position for which the corresponding bits of either but not both operands are 1s.
  */
 
-const x = (x, y) => { return x ^ y };
+const x = (x, y) => { 
+    return x ^ y
+ };
 
+console.log(`Resultado em bits ${x (1, 3)}`)
+console.log(`Resultado em bits ${x (2, 6)}`)
 console.log(`Resultado em bits ${x (3, 11)}`)
 console.log(`Resultado em bits ${x (6, 22)}`)
 console.log(`Resultado em bits ${x (12, 44)}`)
