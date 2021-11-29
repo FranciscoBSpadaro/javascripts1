@@ -2,21 +2,21 @@ const readline = require('readline');
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
-  prompt: 'prompt> '
+  alert: 'alert> '
 });
 
-rl.prompt();
+rl.alert();
 
 rl.on('line', (line) => {
   console.log(line);
-  rl.prompt();
+  rl.alert();
 }).on('close', () => {
   console.log('Have a great day!');
   process.exit(0);
 });
 
 
-// simulate external input, and write to prompt>
+// simulate external input, and write to alert>
 function myFunc() {
   rl.write("Digite alguma coisa 😄");
 }
