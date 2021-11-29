@@ -6,11 +6,11 @@ Use the keyword class to create a class.
 
 Always add a method named constructor():
 
-‎JavaScript Classes são modelos para Objetos JavaScript.‎
+JavaScript Classes são modelos para Objetos JavaScript.
 
-‎Use a palavra-chave para criar uma classe.‎class
+Use a palavra-chave para criar uma classe.class
 
-‎Adicione sempre um método chamado:‎constructor()
+Adicione sempre um método chamado:constructor()
 
 class ClassName {
   constructor() { ... }
@@ -32,9 +32,9 @@ A JavaScript class is not an object.
 
 It is a template for JavaScript objects.
 
-‎Uma classe JavaScript ‎‎não‎‎ é um objeto.‎
+Uma classe JavaScript não é um objeto.
 
-‎É um ‎‎modelo‎‎ para objetos JavaScript.‎
+É um modelo para objetos JavaScript.
   */
 
 class Car {
