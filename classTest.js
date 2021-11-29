@@ -1,9 +1,10 @@
 
 class User {
-  constructor(name, email,id) {
+  constructor(name, email,id,year) {
     this._name = name;
     this._email = email;
     this._id = id;
+    this._year = year;
   }
   // permite que seja inserindo valores na classe usando set
   set name(string) {
@@ -14,14 +15,19 @@ class User {
     return this._name
   }
 
+  age() {
+    let date = new Date();
+    return date.getFullYear() - this._year;
+  }
   // metodo para retorno das informaçoes para o console.log
   newUser() {
-    return `${this.name} , and email ${this._email} foi incluido na classe com o id ${this._id}`;
+    return `O Usuário ${this._name} , foi criado usando o email ${this._email} tem o id ${this._id} e nasceu no ano de ${this._year} e tem a idade de`;
   }
 }
 
-const user = new User("NickName", "nick@nicks.com.br", '1a');
-const user1 = new User("Mythoz89x", "mythoz@gmail.com", 2);
 
-console.log(user.newUser());
-console.log(user1.newUser());
+const user = new User("NickName", "nick@nicks.com.br", '1a', 1989);
+const user1 = new User("Mythoz89x", "mythoz@gmail.com", 2, 1990);
+
+console.log(user.newUser(),user.age(),'anos');
+console.log(user1.newUser(),user1.age(),'anos');
