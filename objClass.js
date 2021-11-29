@@ -15,7 +15,10 @@ class Retangulo {
         return this.altura * this.largura;
     }
 }
+var x = prompt("Digite o valor ")
 
-let quadrado = new Retangulo(10, 10);
+var y = prompt("Digite o valor ")
+
+let quadrado = new Retangulo(`${x}, ${y}`);
 
 console.log(quadrado.area);

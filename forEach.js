@@ -1,3 +1,4 @@
+//node forEach.js
 
 const companies = ["Apple", "Google", "Facebook"]
 
