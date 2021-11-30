@@ -14,7 +14,7 @@ class User {
   get name() {
     return this._name
   }
-
+// metodo calculo da idade do usuário baseado na data de nascimento registrado na classe
   age() {
     let date = new Date();
     return date.getFullYear() - this._year;
@@ -26,7 +26,7 @@ class User {
 }
 
 
-const user = new User("NickName", "nick@nicks.com.br", '1a', 1989);
+const user = new User("Francisco Bianchi Spadaro", "francisco.spadaro@outlook.com", 'UUID123', 1989);
 const user1 = new User("Mythoz89x", "mythoz@gmail.com", 2, 1990);
 
 console.log(user.newUser(),user.age(),'anos');
