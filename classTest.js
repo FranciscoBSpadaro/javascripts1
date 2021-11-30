@@ -46,7 +46,9 @@ class Programmer extends User {
   }
 }
 
+let user00 = new Programmer(user._name, 'Python',user._email);
 let user01 = new Programmer(user1._name, 'JavaScript',user1._email);
 
 
 user01.writeCode()
+user00.writeCode()
