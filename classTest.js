@@ -1,3 +1,4 @@
+
 class User {
   constructor(name, email,id,year) {
     this._name = name;
@@ -48,4 +49,4 @@ class Programmer extends User {
 let user01 = new Programmer('Mythoz89x', 'JavaScript');
 
 
-user01.writeCode(); 
+user01.writeCode()
