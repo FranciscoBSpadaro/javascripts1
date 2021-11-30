@@ -34,19 +34,19 @@ console.log(user1.newUser(),user1.age(),'anos');
 
 // herança
 class Programmer extends User {
-  constructor(name, programmingLanguage) {
-    super(name);
+  constructor(name, programmingLanguage, email) {
+    super(name, email);
     this._programmingLanguage = programmingLanguage;
   }
 
   writeCode() {
     console.log(
-      this._name + ' is coding in ' + this._programmingLanguage + '.'
+      this._name + ' is coding in ' + this._programmingLanguage + '  - Email : ' + this._email, '.'
     );
   }
 }
 
-let user01 = new Programmer('Mythoz89x', 'JavaScript');
+let user01 = new Programmer(user1._name, 'JavaScript',user1._email);
 
 
 user01.writeCode()
